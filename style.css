@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF8E8;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('img/baruskali.jpg');
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+.title{
+    background-color: rgba(101, 171, 165, 0.9);
+    color: white;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    bottom: -56px;
+}
+
+
+nav{
+    background-color: rgba(101, 171, 165, 0.564);
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.overview{
+    font-size: 20px;
+}
+.overview:hover{
+    font-size: 25px;
+    transition: font-size 0.3s ease;
+}
+.ff{
+    font-size: 20px;
+}
+.ff:hover{
+    font-size: 25px;
+    transition: font-size 0.3s ease;
+}
+.aktivitas{
+    font-size: 20px;
+}
+.aktivitas:hover{
+    font-size: 25px;
+    transition: font-size 0.3s ease;
+}
+.image1{
+    border-radius: 8px;
+    justify-content: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 1200px;
+    gap: 2rem;
+}
+
+.art{
+    width: 50%;
+    padding-top: 50px;
+    line-height: 20px;
+}
+
+aside{
+    background-color: #4aadac55;
+    padding: 5rem;
+    text-align: center;
+    border-radius: 8px;
+    width: 35%;
+}
+aside h3{
+    font-size: 35px;
+}
+aside p{
+    font-size: 20px;
+}
+aside img{
+    width: 60%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+}
+
+footer{
+    background-color: #4aadac55;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+}
